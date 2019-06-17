@@ -6,6 +6,6 @@ The only required dependency for Obraz is the Express Web Application Framework.
 
 # Adding a meme
 Adding a meme is relatively simple:
-    1. Add the meme to the cdn/memes folder. Make sure that the name is numbered (e.g. if previous meme is 5.jpg, then change filename of new meme to 6.png) 
-    2. Add the meme to the memes.json file. Just add it to the end of the memeAuthors array.
+1. Add the meme to the cdn/memes folder. Make sure that the name is numbered (e.g. if previous meme is 5.jpg, then change filename of new meme to 6.png) 
+2. Add the meme to the memes.json file. Just add it to the end of the memeAuthors array.
     
