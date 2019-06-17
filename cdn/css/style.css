@@ -1,0 +1,67 @@
+/* TMB 2.0 Main CSS File */
+
+h1 {
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	font-size: 32px;
+}
+
+body {
+	background-image: url("cdn/img/background.jpg");
+	background-size:cover;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+}
+
+.memeButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.memeButton:active {
+  background-color: #2b662e;
+}
+
+#mInput {
+	white-space: nowrap;
+}
+
+#image {
+	width: 400px;
+	height: 300px;
+}
+
+@media handheld, only screen and (max-width: 1024px) 
+{
+    
+    #image {
+		width: 600px;
+		height: 500px;
+	}
+	
+	.memeButton {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 48px;
+    }
+    
+    #warning {
+        font-size: 32px;
+    }
+    
+}
